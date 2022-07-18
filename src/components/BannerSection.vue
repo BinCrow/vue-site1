@@ -18,6 +18,7 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 120px 0;
 }
 .banner__inner {
     text-align: center;

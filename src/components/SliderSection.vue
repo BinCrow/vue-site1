@@ -1,5 +1,5 @@
 <template>
-    <section id="sliderType" class="slider__wrap nexon">
+    <section id="sliderType">
     <h2 class="ir_so">슬라이드 영역</h2>
     <div class="slider__inner">
         <div class="slider">

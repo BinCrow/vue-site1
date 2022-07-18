@@ -1,8 +1,8 @@
 <template>
-    <footer id="footerType" className="footer__wrap section nexon gray">
-    <h2 className="ir_so">푸터 영역</h2>
-    <div className="footer__inner container">
-        <div className="footer__menu">
+    <footer id="footerType">
+    <h2 class="ir_so">푸터 영역</h2>
+    <div class="footer__inner container">
+        <div class="footer__menu">
             <div>
                 <h3>레이아웃 영역</h3>
                 <ul>
@@ -54,7 +54,7 @@
                 </ul>
             </div>
         </div>
-        <address className="footer__right">
+        <address class="footer__right">
             ©2022 webstroyboy. All rights reserved.
         </address>
     </div>

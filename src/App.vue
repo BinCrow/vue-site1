@@ -3,7 +3,7 @@
   <SliderSection />
   <ImageSection skill="section" />
   <ImgTextSection skill="section" />
-  <CardSection skill="section" />
+  <CardSection skill="section name" />
   <BannerSection skill="section" />
   <TextSection skill="section" />
   <FooterSection skill="section" />

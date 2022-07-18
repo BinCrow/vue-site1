@@ -1,5 +1,5 @@
 <template>
-    <section id="bannerType" class="banner__wrap">
+    <section id="bannerType" v-bind:class=skill>
     <h2 class="ir_so">배너 영역</h2>
     <div class="banner__inner">
         <h3 class="banner__title">유튜버 웹보이</h3>
@@ -12,13 +12,20 @@
   </section>
 </template>
 
+<script>
+export default {
+    props: {
+        skill:String,
+    },
+}
+</script>
+
 <style scoped>
 .banner__wrap {
     background-image: url(../assets/img/banner_bg01@2x.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 120px 0;
 }
 .banner__inner {
     text-align: center;

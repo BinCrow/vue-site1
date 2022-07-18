@@ -1,5 +1,5 @@
 <template>
-        <section id="textType" class="text__wrap section nexon">
+    <section id="textType" v-bind:class=skill>
     <h2>코딩과 관련된 직업</h2>
     <p>너무 무리하지 말아요! 이미 당신은 해내고 있고 앞으로도 잘 할 수 있을거예요! </p>
     <div class="text__inner container">
@@ -30,6 +30,14 @@
     </div>
 </section>
 </template>
+
+<script>
+export default {
+    props: {
+        skill:String,
+    },
+}
+</script>
 
 <style scoped>
 .text__inner {

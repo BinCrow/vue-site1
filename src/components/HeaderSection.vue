@@ -1,5 +1,5 @@
 <template>
-        <header id="headerType">
+        <header id="headerType" v-bind:class=skill>
         <div class="header__inner">
         <h1 class="header__logo">
             <a href="/">WEB <em>site</em></a>
@@ -30,6 +30,14 @@
         </div>
     </header>
 </template>
+
+<script>
+export default {
+    props: {
+        skill:String,
+    },
+}
+</script>
 
 <style scoped>
 .header__inner {

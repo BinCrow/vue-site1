@@ -39,7 +39,6 @@ export default {
 }
 </script>
 
-
 <style scoped>
 .image__wrap {
     width: 100%;

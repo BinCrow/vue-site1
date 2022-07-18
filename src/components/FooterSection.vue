@@ -1,5 +1,5 @@
 <template>
-    <footer id="footerType">
+    <footer id="footerType" v-bind:class=skill>
     <h2 class="ir_so">푸터 영역</h2>
     <div class="footer__inner container">
         <div class="footer__menu">
@@ -61,7 +61,18 @@
     </footer>
 </template>
 
+<script>
+export default {
+    props: {
+        skill:String,
+    },
+}
+</script>
+
 <style scoped>
+#footerType{
+    background-color: #f0f0f0;
+}
 .footer__menu {
     display: flex;
     justify-content: space-between;

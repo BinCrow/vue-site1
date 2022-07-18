@@ -3,8 +3,8 @@
   <SliderSection />
   <ImageSection skill="section" />
   <ImgTextSection skill="section" />
-  <CardSection skill="section name" />
-  <BannerSection skill="section" />
+  <CardSection skill="section" />
+  <BannerSection skill="section banner__wrap" />
   <TextSection skill="section" />
   <FooterSection skill="section" />
 </template>

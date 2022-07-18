@@ -1,5 +1,5 @@
 <template>
-    <section id="sliderType">
+    <section id="sliderType" v-bind:class=skill>
     <h2 class="ir_so">슬라이드 영역</h2>
     <div class="slider__inner">
         <div class="slider">
@@ -30,6 +30,14 @@
     </div>
     </section>
 </template>
+
+<script>
+export default {
+    props: {
+        skill:String,
+    },
+}
+</script>
 
 <style scoped>
 .slider {
